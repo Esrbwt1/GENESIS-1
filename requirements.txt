@@ -4,3 +4,6 @@ pytest
 transformers  # <── Add this
 torch          # (Optional, but often needed for transformers)
 sentencepiece  # (Optional, for some tokenizers)
+Pillow  # <── Add this
+opencv-python   # For computer vision tasks
+torchvision     # For PyTorch image models
