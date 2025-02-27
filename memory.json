@@ -1,0 +1,221 @@
+[
+    {
+        "timestamp": "2025-02-26T17:48:24.482514",
+        "input_summary": "This is a sample text for testing.",
+        "embedding_stats": {
+            "mean": 0.123,
+            "std": 0.456
+        },
+        "decision": "Positive inference: The context is positive.",
+        "reward": 1,
+        "analysis_report": {
+            "average_embedding_value": 0.123,
+            "improvement_needed": false
+        },
+        "improvement_outcome": "No self-improvement required."
+    },
+    {
+        "timestamp": "2025-02-26T17:49:38.962133",
+        "input_summary": "HI my name is Esrom.",
+        "embedding_stats": {
+            "mean": -0.011179250665009022,
+            "std": 0.27921101450920105
+        },
+        "decision": "Negative inference: The input context is interpreted as negative.",
+        "reward": -1,
+        "analysis_report": {
+            "average_embedding_value": -0.011179250665009022,
+            "decision": "Negative inference: The input context is interpreted as negative.",
+            "reward": -1,
+            "improvement_needed": true
+        },
+        "improvement_outcome": "Self-improvement executed: System parameters updated."
+    },
+    {
+        "timestamp": "2025-02-26T23:15:15.761410",
+        "input_summary": "HI my name is Esrom.",
+        "embedding_stats": {
+            "mean": -0.011179250665009022,
+            "std": 0.27921101450920105
+        },
+        "decision": "Negative inference: The input context is interpreted as negative.",
+        "reward": -1,
+        "analysis_report": {
+            "average_embedding_value": -0.011179250665009022,
+            "decision": "Negative inference: The input context is interpreted as negative.",
+            "reward": -1,
+            "improvement_needed": true
+        },
+        "improvement_outcome": "Self-improvement executed: System parameters updated. | Negative action executed: Caution tasks initiated."
+    },
+    {
+        "timestamp": "2025-02-26T23:16:04.280345",
+        "input_summary": "HI my name is Esrom.",
+        "embedding_stats": {
+            "mean": -0.011179250665009022,
+            "std": 0.27921101450920105
+        },
+        "decision": "Negative inference: The input context is interpreted as negative.",
+        "reward": -1,
+        "analysis_report": {
+            "average_embedding_value": -0.011179250665009022,
+            "decision": "Negative inference: The input context is interpreted as negative.",
+            "reward": -1,
+            "improvement_needed": true
+        },
+        "improvement_outcome": "Self-improvement executed: System parameters updated. | Negative action executed: Caution tasks initiated."
+    },
+    {
+        "timestamp": "2025-02-26T23:17:19.168531",
+        "input_summary": "HI my name is Esrom.",
+        "embedding_stats": {
+            "mean": -0.011179250665009022,
+            "std": 0.27921101450920105
+        },
+        "decision": "Negative inference: The input context is interpreted as negative.",
+        "reward": -1,
+        "analysis_report": {
+            "average_embedding_value": -0.011179250665009022,
+            "decision": "Negative inference: The input context is interpreted as negative.",
+            "reward": -1,
+            "improvement_needed": true
+        },
+        "improvement_outcome": "Self-improvement executed: System parameters updated. | Negative action executed: Caution tasks initiated."
+    },
+    {
+        "timestamp": "2025-02-26T23:19:01.394806",
+        "input_summary": "HI my name is Esrom.",
+        "embedding_stats": {
+            "mean": -0.011179250665009022,
+            "std": 0.27921101450920105
+        },
+        "decision": "Negative inference: The input context is interpreted as negative.",
+        "reward": -1,
+        "analysis_report": {
+            "average_embedding_value": -0.011179250665009022,
+            "decision": "Negative inference: The input context is interpreted as negative.",
+            "reward": -1,
+            "improvement_needed": true
+        },
+        "improvement_outcome": "Self-improvement executed: System parameters updated. | Negative action executed: Caution tasks initiated."
+    },
+    {
+        "timestamp": "2025-02-26T23:39:42.855193",
+        "input_summary": "HI my name is Esrom.",
+        "embedding_stats": {
+            "mean": -0.011179250665009022,
+            "std": 0.27921101450920105
+        },
+        "decision": "Negative inference: The input context is interpreted as negative.",
+        "reward": -1,
+        "analysis_report": {
+            "average_embedding_value": -0.011179250665009022,
+            "decision": "Negative inference: The input context is interpreted as negative.",
+            "reward": -1,
+            "improvement_needed": true
+        },
+        "improvement_outcome": "Self-improvement executed: System parameters updated. | Negative action executed: Caution tasks initiated."
+    },
+    {
+        "timestamp": "2025-02-27T10:18:28.885022",
+        "input_summary": "HI my name is Esrom.",
+        "embedding_stats": {
+            "mean": -0.011179250665009022,
+            "std": 0.27921101450920105
+        },
+        "decision": "Negative inference: The input context is interpreted as negative.",
+        "reward": -1,
+        "analysis_report": {
+            "average_embedding_value": -0.011179250665009022,
+            "decision": "Negative inference: The input context is interpreted as negative.",
+            "reward": -1,
+            "improvement_needed": true
+        },
+        "improvement_outcome": "Self-improvement executed: System parameters updated. | Negative action executed: Caution tasks initiated."
+    },
+    {
+        "timestamp": "2025-02-27T10:54:14.888498",
+        "input_summary": "HI my name is Esrom.",
+        "embedding_stats": {
+            "mean": -0.011179250665009022,
+            "std": 0.27921101450920105
+        },
+        "decision": "Negative inference: The input context is interpreted as negative.",
+        "reward": -1,
+        "analysis_report": {
+            "average_embedding_value": -0.011179250665009022,
+            "decision": "Negative inference: The input context is interpreted as negative.",
+            "reward": -1,
+            "improvement_needed": true
+        },
+        "improvement_outcome": "Self-improvement executed: System parameters updated. | Negative action executed: Caution tasks initiated."
+    },
+    {
+        "timestamp": "2025-02-27T10:57:13.681265",
+        "input_summary": "HI my name is Esrom.",
+        "embedding_stats": {
+            "mean": -0.011179250665009022,
+            "std": 0.27921101450920105
+        },
+        "decision": "Negative inference: The input context is interpreted as negative.",
+        "reward": -1,
+        "analysis_report": {
+            "average_embedding_value": -0.011179250665009022,
+            "decision": "Negative inference: The input context is interpreted as negative.",
+            "reward": -1,
+            "improvement_needed": true
+        },
+        "improvement_outcome": "Self-improvement executed: System parameters updated. | Negative action executed: Caution tasks initiated."
+    },
+    {
+        "timestamp": "2025-02-27T11:15:17.395184",
+        "input_summary": "HI my name is Esrom.",
+        "embedding_stats": {
+            "mean": -0.011179250665009022,
+            "std": 0.27921101450920105
+        },
+        "decision": "Negative inference: The input context is interpreted as negative.",
+        "reward": -1,
+        "analysis_report": {
+            "average_embedding_value": -0.011179250665009022,
+            "decision": "Negative inference: The input context is interpreted as negative.",
+            "reward": -1,
+            "improvement_needed": true
+        },
+        "improvement_outcome": "Self-improvement executed: System parameters updated. | Negative action executed: Caution tasks initiated."
+    },
+    {
+        "timestamp": "2025-02-27T17:04:37.338590",
+        "input_summary": "HI my name is Esrom.",
+        "embedding_stats": {
+            "mean": -0.011179250665009022,
+            "std": 0.27921101450920105
+        },
+        "decision": "Negative inference: The input context is interpreted as negative. Additionally, related concepts for 'Machine Learning' are: ['Artificial Intelligence', 'Neural Networks'].",
+        "reward": -1,
+        "analysis_report": {
+            "average_embedding_value": -0.011179250665009022,
+            "decision": "Negative inference: The input context is interpreted as negative. Additionally, related concepts for 'Machine Learning' are: ['Artificial Intelligence', 'Neural Networks'].",
+            "reward": -1,
+            "improvement_needed": true
+        },
+        "improvement_outcome": "Self-improvement executed: System parameters updated. | Negative action executed: Caution tasks initiated."
+    },
+    {
+        "timestamp": "2025-02-27T17:42:39.165246",
+        "input_summary": "HI my name is Esrom.",
+        "embedding_stats": {
+            "mean": -0.011179250665009022,
+            "std": 0.27921101450920105
+        },
+        "decision": "Negative inference: The input context is interpreted as negative. Additionally, related concepts for 'Machine Learning' are: ['Artificial Intelligence', 'Neural Networks'].",
+        "reward": -1,
+        "analysis_report": {
+            "average_embedding_value": -0.011179250665009022,
+            "decision": "Negative inference: The input context is interpreted as negative. Additionally, related concepts for 'Machine Learning' are: ['Artificial Intelligence', 'Neural Networks'].",
+            "reward": -1,
+            "improvement_needed": true
+        },
+        "improvement_outcome": "Self-improvement executed: System parameters updated. | Negative action executed: Caution tasks initiated."
+    }
+]

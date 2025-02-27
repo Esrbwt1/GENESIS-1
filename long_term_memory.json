@@ -1,0 +1,50 @@
+[
+    {
+        "timestamp": "2025-02-27T13:33:38.891460",
+        "input_summary": "Test event for long-term memory.",
+        "decision": "Test decision",
+        "reward": 1
+    },
+    {
+        "timestamp": "2025-02-27T16:34:19.004611",
+        "input_summary": "Test event for long-term memory.",
+        "decision": "Test decision",
+        "reward": 1
+    },
+    {
+        "timestamp": "2025-02-27T16:46:01.519725",
+        "input_summary": "Test event for long-term memory.",
+        "decision": "Test decision",
+        "reward": 1
+    },
+    {
+        "timestamp": "2025-02-27T17:05:06.422075",
+        "input_summary": "HI my name is Esrom.",
+        "decision": "Negative inference: The input context is interpreted as negative. Additionally, related concepts for 'Machine Learning' are: ['Artificial Intelligence', 'Neural Networks'].",
+        "reward": -1,
+        "multi_modal": {
+            "image_embedding_shape": [
+                512
+            ],
+            "numerical_data_shape": [
+                100,
+                1
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-02-27T17:43:15.657885",
+        "input_summary": "HI my name is Esrom.",
+        "decision": "Negative inference: The input context is interpreted as negative. Additionally, related concepts for 'Machine Learning' are: ['Artificial Intelligence', 'Neural Networks'].",
+        "reward": -1,
+        "multi_modal": {
+            "image_embedding_shape": [
+                512
+            ],
+            "numerical_data_shape": [
+                100,
+                1
+            ]
+        }
+    }
+]
