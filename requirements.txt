@@ -7,3 +7,4 @@ sentencepiece  # (Optional, for some tokenizers)
 Pillow  # <── Add this
 opencv-python   # For computer vision tasks
 torchvision     # For PyTorch image models
+pandas
