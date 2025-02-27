@@ -27,7 +27,7 @@ from modules.knowledge_graph import create_knowledge_graph, query_knowledge_grap
 from modules.reasoning import enhanced_reasoning  # Use the enhanced reasoning function
 from modules.long_term_memory import store_long_term_memory, retrieve_long_term_memory, query_long_term_memory
 
-def integrate_system(text_filepath, image_path=None, csv_path=None):
+def integrate_system(text_filepath, image_path=None, csv_path=None, ci_mode=False):
     """
     Integrates all modules of GENESIS-1, including multi-modal processing, enhanced reasoning,
     and long-term memory storage.
@@ -107,8 +107,13 @@ def integrate_system(text_filepath, image_path=None, csv_path=None):
     external_data = preprocess_external_data(headlines)
     
     # Step 10: Get user feedback
-    user_feedback = get_user_feedback()
+    # Update user feedback call
+    user_feedback = get_user_feedback() if not ci_mode else ""
     
+    # Update file handling for CI
+    if ci_mode:
+        print("[CI MODE] Using test files from test_files/ directory")  
+      
     # Step 11: Perform incremental training with external data and feedback
     new_training_data = external_data + " " + user_feedback
     incremental_train_success = incremental_train(new_training_data)
@@ -161,7 +166,7 @@ def integrate_system(text_filepath, image_path=None, csv_path=None):
         "long_term_events": long_term_events
     }
 
-def main():
+def main(ci_mode=False):
     print("Initializing full GENESIS-1 integration with Phase 4: Multi-Domain Reasoning & Generalization...")
     
     # Define file paths (update these paths as needed)
@@ -169,7 +174,7 @@ def main():
     image_file = "C:/Users/A3sh/Desktop/photo-1529778873920-4da4926a72c2.jpg"  # Path to your test image
     csv_file = "C:/Users/A3sh/Desktop/people-100.csv"  # Path to your numerical CSV file
     
-    result = integrate_system(text_file, image_path=image_file, csv_path=csv_file)
+    result = integrate_system(text_file, image_path=image_file, csv_path=csv_file, ci_mode=ci_mode)  # <── Pass CI mode to integration
     
     print("Integration complete.")
     print("Generated text embeddings with shape:", result["text_embeddings"].shape)
