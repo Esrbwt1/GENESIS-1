@@ -1,5 +1,6 @@
 # requirements.txt
 numpy
 pytest
-snakeviz
-# Add other packages your project needs (e.g., pandas, scipy)
+transformers  # <── Add this
+torch          # (Optional, but often needed for transformers)
+sentencepiece  # (Optional, for some tokenizers)
